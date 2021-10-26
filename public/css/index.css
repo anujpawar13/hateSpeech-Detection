@@ -1,57 +1,130 @@
-*{
-    max-width: 100%;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin: 0em;
-    padding: 0em;
+* {
+  max-width: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0em;
+  padding: 0em;
 }
 
-body{
-    scroll-behavior: smooth;
-    background-color: #F8FBFF;
+body {
+  scroll-behavior: smooth;
+  background-color: #f8fbff;
+  max-height: 100%;
 }
 
-#sidebar{
-    position: absolute;
-    height: 100%;
-    width: 20%;
-    text-align: center;
-    background-color: #fff;
-    box-sizing: border-box;
-    align-items: center;
+#dashboard {
+  display: flex;
 }
 
-#logo img{
-    width: 5em;
+#sidebar {
+  position: relative;
+  height: 100%;
+  width: 20%;
+  text-align: center;
+  background-color: #fff;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+#logo img {
+  width: 5em;
+  position: relative;
+  margin-bottom: 2em;
+}
+
+#sidebar ul {
+  padding-left: 0px;
+  list-style: none;
+  font-size: 1.5rem;
+}
+
+#sidebar ul a {
+  text-decoration: none;
+  color: #c7c7c7;
+}
+
+.menu-item {
+  margin-bottom: 1.8em;
+}
+.menu-item img {
+  width: 2.5em;
+  margin-bottom: 0.3em;
+}
+.menu-item {
+  display: inline-block;
+  width: 5em;
+  position: relative;
+}
+
+#sidebar p {
+  font-size: 0.6em;
+  margin-top: 2em;
+}
+
+.container {
+  position: relative;
+  width: 20rem;
+  height: 8rem;
+  padding: 1rem;
+  margin: 2rem;
+  border-radius: 1rem;
+  font-size: 0.8rem;
+  color: white;
+}
+
+h1{
     position: relative;
-    margin-bottom: 2em;
+    left: 2rem;
+    top: 1rem;
+    font-size: 2rem;
+    font-weight: 500;
 }
 
-#sidebar ul{
-    padding-left: 0px;
-    list-style: none;
-    font-size: 1.5rem;
-
+h6 {
+  font-weight: bolder;
+  margin-bottom: 1rem;
 }
 
-#sidebar ul a{
-    text-decoration: none;
-    color: #C7C7C7;
+.information{
+    display: flex;
+    height: 20%;
 }
 
-.menu-item{
-    margin-bottom: 1.8em;
-}
-.menu-item img{
-    width: 2.5em;
-    margin-bottom: 0.3em;
-}
-.menu-item{
-    display: inline-block;
-    width: 5em;
-    position: relative;
+#fb {
+  background: #4267b2;
+  filter: drop-shadow(0px 15px 50px rgba(18, 94, 141, 0.3));
 }
 
-#sidebar p{
-    font-size: 0.6em;
-    margin-top: 1em;
+.bi-facebook {
+  font-size: 20px;
+  width: 1rem;
+  position: absolute;
+  right: 1.5rem;
+  top: 0.7rem;
+}
+
+#insta {
+  background: #cd486b;
+  filter: drop-shadow(0px 15px 50px rgba(205, 72, 107, 0.3));
+}
+
+.bi-instagram {
+  font-size: 20px;
+  width: 1rem;
+  position: absolute;
+  right: 1.5rem;
+  top: 0.7rem;
+}
+
+#twitter {
+  background: #1da1f2;
+  filter: drop-shadow(0px 15px 50px rgba(29, 161, 242, 0.3));
+}
+
+.bi-twitter {
+  font-size: 20px;
+  width: 1rem;
+  position: absolute;
+  right: 1.5rem;
+  top: 0.7rem;
 }
