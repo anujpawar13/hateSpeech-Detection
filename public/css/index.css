@@ -87,12 +87,12 @@ h6 {
 
 .information{
     display: flex;
-    height: 20%;
+    height: 25%;
 }
 
 #fb {
   background: #4267b2;
-  filter: drop-shadow(0px 15px 50px rgba(18, 94, 141, 0.3));
+  filter: drop-shadow(0px 15px 25px rgba(18, 94, 141, 0.3));
 }
 
 .bi-facebook {
@@ -105,7 +105,7 @@ h6 {
 
 #insta {
   background: #cd486b;
-  filter: drop-shadow(0px 15px 50px rgba(205, 72, 107, 0.3));
+  filter: drop-shadow(0px 15px 25px rgba(205, 72, 107, 0.3));
 }
 
 .bi-instagram {
@@ -118,7 +118,7 @@ h6 {
 
 #twitter {
   background: #1da1f2;
-  filter: drop-shadow(0px 15px 50px rgba(29, 161, 242, 0.3));
+  filter: drop-shadow(0px 15px 25px rgba(29, 161, 242, 0.3));
 }
 
 .bi-twitter {
@@ -127,4 +127,21 @@ h6 {
   position: absolute;
   right: 1.5rem;
   top: 0.7rem;
+}
+
+
+.container-details {
+  position: relative;
+  width: 60rem;
+  margin: 2rem;
+  font-size: 1rem;
+}
+
+.container-details p {
+padding-left: 2rem;
+}
+
+.container-details img {
+border: 1px solid #C7C7C7;
+border-radius: 10px;
 }
