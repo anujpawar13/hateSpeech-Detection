@@ -18,7 +18,7 @@ body {
 
 #sidebar {
   position: relative;
-  height: 100%;
+  height: 100vh;
   width: 20%;
   text-align: center;
   background-color: #fff;
@@ -33,6 +33,7 @@ body {
 }
 
 #sidebar ul {
+  height: 100%;
   padding-left: 0px;
   list-style: none;
   font-size: 1.5rem;
@@ -58,7 +59,7 @@ body {
 
 #sidebar p {
   font-size: 0.6em;
-  margin-top: 2em;
+  margin-top: 0.5em;
 }
 
 .container {
@@ -72,12 +73,13 @@ body {
   color: white;
 }
 
-h1{
-    position: relative;
-    left: 2rem;
-    top: 1rem;
-    font-size: 2rem;
-    font-weight: 500;
+h1 {
+  color: rgb(82, 82, 82);
+  position: relative;
+  margin: 0rem 2rem;
+  margin-top: 1.5rem;
+  font-size: 1.8rem;
+  font-weight: 700;
 }
 
 h6 {
@@ -85,9 +87,9 @@ h6 {
   margin-bottom: 1rem;
 }
 
-.information{
-    display: flex;
-    height: 25%;
+.information {
+  display: flex;
+  height: fit-content;
 }
 
 #fb {
@@ -129,25 +131,29 @@ h6 {
   top: 0.7rem;
 }
 
-
 .container-details {
-  position: relative;
-  width: 70rem;
+  position: absolute;
+  width: 75%;
   margin: 1rem;
   font-size: 1rem;
 }
 
 .container-details img {
-width: 87%;
-border: 1px solid #C7C7C7;
-border-radius: 10px;
+  width: 75%;
+  border: 1px solid #c7c7c7;
+  border-radius: 10px;
+  margin-left: 2em;
 }
 
-a{
+a {
   text-decoration: none;
   color: white;
 }
 
-.container-details a{
+.container-details a {
   color: #254586;
+}
+
+.container-details p {
+  margin-bottom: 0px;
 }
