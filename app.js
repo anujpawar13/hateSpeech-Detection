@@ -8,6 +8,7 @@ app.get('/', (req, res)=>{
     res.render("index")
 });
 
+
 // to use static files such as css, img, logos
 app.use("/public", express.static("public"));
 
