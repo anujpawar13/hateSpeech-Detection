@@ -16,7 +16,7 @@
 </head>
 <body>
     <div id="dashboard">
-        <%- include("./partials/sidebar.ejs",{loc: "index" }); %>
+        <%- include("./partials/sidebar.ejs",{active:active }); %>
         <div style="display: inline-block;">
 
             <h1>Dashboard</h1>
@@ -34,7 +34,7 @@
                 <section class="container" id="insta">
                     <div>
                         <i class="bi bi-instagram"></i>
-                        <h6><a href="/views/instagram.html">Hate Speech on Instagram</a></h6>
+                        <h6><a href="/instagram">Hate Speech on Instagram</a></h6>
                         <p>These includes offensive photos, abusive comments. It may contain inappropriate hate content
                             like
                             harrasment, etc.</p>
@@ -43,7 +43,7 @@
                 <section class="container" id="twitter">
                     <div>
                         <i class="bi bi-twitter"></i>
-                        <h6><a  id="twitter-link" href="#"> Hate Speech on Twitter</a></h6>
+                        <h6><a  id="twitter-link" href="/twitter"> Hate Speech on Twitter</a></h6>
                         <p>These includes disreputable tweets, comments which may be about racism, political agenda,
                             etc.
                         </p>

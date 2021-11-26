@@ -25,14 +25,25 @@
                 <li>
                     <div class="menu-item">
                         <a href="index.ejs"> <img src="/public/img/dash-icon.png" alt="Dasboard">
-                            Dashboard
+            
+                            <%if(active == "dashboard"){%>
+                                <b>dashboard</b>
+                                <%}else{%>
+                                    dashboard
+                                    <%}%>
+                                
                     </div>
                 </li></a>
                 <li>
                     <div class="menu-item">
                         <a href="index.ejs"> <img src="/public/img/analytics-icon.png" alt="Dasboard">
-                            Analytics
-                    </div>
+
+                            <%if(active == "analytics"){%>
+                                <b>analytics</b>
+                                <%}else{%>
+                                    analytics
+                                    <%}%>
+                                </div>
                 </li></a>
                 <li>
                     <div class="menu-item">
