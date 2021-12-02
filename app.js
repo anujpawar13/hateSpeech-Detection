@@ -9,11 +9,15 @@ app.get('/', (req, res)=>{
 });
 
 app.get('/instagram', (req, res)=>{
-    res.render("instagram", {active: "analytics"} )
+    res.render("instagram", {active: "dashboard"} )
 });
 
 app.get('/twitter', (req, res)=>{
-    res.render("twitter")
+    res.render("twitter", {active: "dashboard"})
+});
+
+app.get('/analytics', (req, res)=>{
+    res.render("analytics", {active: "analytics"})
 });
 
 

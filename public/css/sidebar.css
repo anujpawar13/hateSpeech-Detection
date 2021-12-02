@@ -61,3 +61,8 @@
     font-size: 0.6em;
     margin-top: 0.5em;
   }
+
+  .active-link{
+    color: #1479FF;
+    
+  }
