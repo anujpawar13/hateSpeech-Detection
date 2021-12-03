@@ -20,6 +20,10 @@ app.get('/analytics', (req, res)=>{
     res.render("analytics", {active: "analytics"})
 });
 
+app.get('/database', (req, res)=>{
+    res.render("database", {active: "database"})
+});
+
 
 // to use static files such as css, img, logos
 app.use("/public", express.static("public"));
