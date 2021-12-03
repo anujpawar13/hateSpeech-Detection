@@ -23,22 +23,6 @@
 
         </div>
     </div>
-        <script>
-            document.getElementById('twitter-link').addEventListener
-            ('click', loadText);
 
-            function loadText(){
-                var xhr = new XMLHttpRequest();
-                // OPEN - type, url/file, async
-
-                xhr.open('GET', 'twitter.ejs', true);
-
-                xhr.onload = function(){
-                    if(this.status == 200){
-                        document.getElementById('twitter-link').innerHTML = this.responseText;
-                    }
-                }
-            }
-        </script>
 </body>
 </html>
